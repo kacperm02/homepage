@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" section="IE=edge">
+    <meta name="viewport" section="width=device-width, initial-scale=1.0">
+    <title>O mnie</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+                <li><a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
+                <li><a class="navigation__link" href="#marzenia">Marzenia i plany</a></li>
+                <li><a class="navigation__link" href="#gry">Moje ulubione gry</a></li>
+            </ul>
+        </nav>
+        <header class="header"><h1 class="header__title">Moja wizytówka</h1></header>
+        <main>
+        <section class="section">
+            <button class="button__changeColor js-changeColorButton">Zmień na ciemny motyw</button>
+            <h2 class="section__header" id="o-mnie">O mnie</h2>
+            <p class="section__section__information"
+            >Mam na imię <strong class="name">Kacper</strong>, mieszkam w mieście Konin urodziłem się w maju 2002 roku. Uczyłem się na kierunku Technik Informatyk który ukończyłem w 2022 roku.
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section__header" id="zainteresowania">Zainteresowania</h2>
+            <p class="section__information">
+                Interesuję się motoryzacją, moją ulubioną marką samochodu jest Mercedes-Benz. Regularnie chodzę na siłownię, ponieważ uwielbiam ćwiczyć i dbać o swoją sylwetkę.<br>Interesuję się również tworzeniem stron internetowych.
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section__header" id="marzenia">Marzenia i plany</h2>
+            <p class="section__information">
+                Moim celem w życiu jest dostać pracę jako <em>Frontend Developer</em>, w dalszej przyszłości chciałbym kupić mieszkanie. Wiem, że łatwo nie będzie ale zawsze dążę do upragnionego celu.
+            </p> 
+        </section>
+        <section class="section">
+            <h2 class="section__header" id="gry">Moje ulubione gry</h2>
+            <div class="table--overflow">
+            <table class="table">
+                <tr>
+                    <th class="table__cell table__header" scope="col">Tytuł</th>
+                    <th class="table__cell table__header" scope="col">Wydawca</th>
+                    <th class="table__cell table__header" scope="col">Rok wydania</th>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">Grand Theft Auto V</td>
+                    <td class="table__cell"  rowspan="2">Rockstar Games</td>
+                    <td class="table__cell" >2013</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">Grand Theft Auto: SA</td>
+                    <td class="table__cell" >2004</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header"  scope="row">Cyberpunk 2077</td>
+                    <td class="table__cell" >CD Project Red</td>
+                    <td class="table__cell" >2020</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header" scope="row">Mafia II</td>
+                    <td class="table__cell" >2K Games</td>
+                    <td class="table__cell" >2010</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        </main>
+        <footer class="footer">&copy Strona stworzona przez Kacper Mierkiewicz 2023</footer>
+</body>
+</html>

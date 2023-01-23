@@ -1,0 +1,17 @@
+.table {
+    border-collapse : collapse;
+    width : 100%;
+    vertical-align : bottom;
+}
+.table__cell {
+    border : 2px solid #fff;
+    padding : 20px;
+    text-align : center;
+}
+.table__header {
+    background-color : #42445a;
+    color :#fff;
+}
+.table--overflow {
+    overflow-x : auto;
+}

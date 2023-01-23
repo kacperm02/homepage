@@ -1,0 +1,19 @@
+.navigation {
+    border-bottom: 3px solid #42445a;
+    line-height: 2;
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__link {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color:#42445a;
+    padding-left: 5px;
+}
