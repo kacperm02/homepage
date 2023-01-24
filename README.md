@@ -1,6 +1,8 @@
 # homepage
 ## About project
 this page presents my homepage where I introduce myself
+## Visit my site
+[homepage-link](https://kacperm02.github.io/homepage/)
 ## Technologies used
 - HTML
 - CSS
